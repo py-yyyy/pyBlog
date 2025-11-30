@@ -1,0 +1,129 @@
+html{
+    background-color: rgb(255, 251, 252);
+    /* overflow: hidden; */
+}
+*{
+    margin: 0rem;
+    padding: 0rem;
+    box-sizing: border-box;
+}
+#father{
+    text-align: center;
+}
+#headImg{
+    background: white;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 2rem;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0.5rem 1rem -0.5rem rgba(0, 0, 0, 0.05);
+    margin-bottom: 1rem;
+}
+#headImg img{
+    width: 2rem;
+    height: 2rem;
+}
+#headP1{
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+#headP2{
+    color: gray;
+}
+#head{
+    margin:2rem 0 ;
+}
+#body{
+    margin: auto;
+    background-color: white;
+    border-radius: 2rem;
+    box-shadow: 0 0.5rem 1rem -0.5rem rgba(0, 0, 0, 0.05);
+    width: 30rem;
+    padding: 1rem 4rem;
+}
+#loginForm p{
+    font-weight: 350;  
+    font-size: small;  
+}
+#loginForm{
+    width: 100%;
+    text-align: left;
+}
+/* #loginForm input{
+    width: 100%;
+    height: 2.5rem;
+    border: 0.05rem solid rgb(181, 174, 175);
+    border-radius: 0.5rem;
+    margin-top: 0.2rem;
+    transition: all 0.3s;
+}
+#loginForm input:focus{
+    outline: none;
+    transform: scale(1.01);
+    box-shadow: 0 0.5rem 1rem -0.5rem rgba(0, 0, 0, 0.05); 
+    border: 0.1rem solid rgb(181, 174, 175);
+} */
+#loginForm input{
+    height: 100%;
+    width: calc(100% - 2.2rem);
+    border: none;
+    margin-left: 1rem;
+    font-weight: 350;
+    transition: all 0.3s;
+    /* background: rgb(255, 251, 252); */
+}
+#loginForm input:focus{
+    outline: none;
+}
+#nameDiv,#passwordDiv{
+    padding: 0 1rem;
+    width: 100%;
+    height: 2.5rem;
+    border: 0.05rem solid rgb(181, 174, 175);
+    border-radius: 0.5rem;
+    margin-top: 0.2rem;
+    display: flex;
+    align-items: center;
+}
+#nameDiv img,#passwordDiv img{
+    width: 1rem;
+    height: 1rem;
+}
+.divFocus{
+    transition: all 0.2s;
+    border: 0.05rem solid #4495F6 !important;
+    transform: scale(1.01);
+}
+#userName,#password{
+    margin: 1.5rem 0;
+}
+#loginBtn{
+    margin-top: 2rem;
+}
+#loginBtn button{
+    width: 100%;
+    height: 2.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: #4495F6;
+    color: white;
+    font-size: 1rem;
+    transition: all 0.3s;
+}
+#loginBtn button:hover{
+    transform: scale(1.01);
+}
+#register{
+    margin-top: 2rem;
+    font-weight: 350;
+    font-size: small;
+}
+#register span{
+    color: #4495F6;
+}
+#register span:hover{
+    text-decoration: underline;
+}

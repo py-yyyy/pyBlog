@@ -1,0 +1,24 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+#homeFather{
+    position: relative;
+}
+.homeNav{
+    position: fixed;
+    top: 0;
+    transition: all 0.3s!important;
+    z-index: 999;
+    /* 给homeNav设置初始高度，原本的homeNav没有高度，由内容撑开 */
+    /* 如果希望有平滑效果，需要设置初始高度 */
+    height: 6rem;
+}
+#homeOutlet{
+    margin-top: 8.5rem;
+    padding: 0 1rem;
+}
+.homeScrollY{
+    height: 6.5rem;
+}

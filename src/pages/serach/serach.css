@@ -1,0 +1,178 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+#serachFather{
+    width: 72%;
+    margin: auto;
+}
+#serachH1{
+    text-align: center;
+    color: rgb(78, 74, 75);
+    margin-bottom: 2rem;
+}
+#serachDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+    background: white;
+    border-radius: 0.5rem;
+    border: 0.1rem solid rgba(0, 0, 0, 0.05);
+}
+.serachDivFocus{
+    border: 0.1rem solid #4495F6!important;
+}
+#serachDiv>img{
+    width: 1rem;
+    height: 1rem;
+}
+#serachDiv>input{
+    width: calc(100% - 4rem);
+    height: 3rem;
+    border: none;
+    font-size: 1.1rem;
+    padding: 0 1rem;
+    color: rgb(78, 74, 75);
+}
+#serachDiv>input:focus{
+    outline: none;
+}
+#serachHead>p{
+    text-align: center;
+    margin-top: 1rem;
+    color: rgb(78, 74, 75);
+    font-weight: 350;
+}
+#serachHead>p>span{
+    color: #4495F6;
+}
+#serachContent{
+    margin-top: 2rem;
+}
+#serachCategory{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+    color: rgb(78, 74, 75);
+    font-weight: 350;
+}
+#serachCategory>li{
+    margin: 0 0.5rem;
+    padding: 0.3rem 1rem;
+    border-radius: 1rem;
+    background: white;
+    color: rgb(78, 74, 75);
+    font-size: 0.9rem;
+}
+#serachCategory>li:hover{
+    background: #f0f6ff;
+}
+.serachCategoryFocus{
+    background: #4495F6!important;
+    color: white!important;
+}
+#serachResult{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+#serachResult li{
+    width: 100%;
+    /* height: 12rem; */
+    background-color: white;
+    border-radius: 0.5rem;
+    margin-top: 2rem;
+    padding: 1rem 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0 0.5rem 1rem -0.5rem rgba(0, 0, 0, 0.05);
+    transition: all 0.3s;
+}
+#serachResult li:hover{
+    transform: translateY(-0.1rem);
+    box-shadow: 0 0.5rem 1rem -0.5rem rgba(0, 0, 0, 0.2);
+}
+#serachResult h2{
+    text-align: left;
+    transition: all 0.1s;
+    color: rgb(78, 74, 75);
+}
+#serachResult h2:hover{
+    /* color: #aac8f1; */
+    color: #4495F6;
+}
+#serachResult p{
+    margin: 1rem 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    color: rgb(78, 74, 75);
+}
+#serachResult button{
+    border: none;
+    background: transparent;
+    text-align: left;
+    font-size: 1.1rem;
+    color: #aac8f1;
+}
+#serachResult button:hover{
+    text-decoration: underline;
+}
+.serachLiTitle .serachLiP{
+    color: #4495F6 !important;
+    background: #f0f6ff;
+    border-radius: 1rem;
+    padding: 0.2rem 0.8rem;
+    font-size: 1rem !important;
+    font-weight: 400 !important;
+}
+.serachLiTitle{
+    color: rgb(78, 74, 75);
+    font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+}
+.serachLiTitle img{
+    width: 1rem;
+    height: 1rem;
+    margin: 0 0.5rem;
+}
+#serachPage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+#serachPage p{
+    margin: 0 1rem;
+}
+#serachPage button{
+    background: white;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    border: 0.1rem solid rgba(0, 0, 0, 0.05);
+}
+#serachPage button:hover{
+    background: rgb(243, 243, 243);
+}
+#serachPage>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#serachPage span{
+    color: #4495F6;
+    margin: 0 0.5rem;
+    font-weight: 700;
+}
+.serachPageBtn{
+    background: rgb(243, 243, 243)!important;
+}

@@ -1,0 +1,25 @@
+/* 1. 基础基准值：适配中小屏幕（如1366px以下） */
+html {
+  font-size: 16px; /* 1rem = 16px */
+}
+
+/* 2. 大屏幕1：1366px ~ 1920px（如15.6寸笔记本、24寸显示器） */
+@media (min-width: 1366px) {
+  html {
+    font-size: 18px; /* 1rem = 18px，按1.125倍放大，比例不变 */
+  }
+}
+
+/* 3. 大屏幕2：1920px ~ 2560px（如27寸2K显示器） */
+@media (min-width: 1920px) {
+  html {
+    font-size: 20px; /* 1rem = 20px，按1.25倍放大 */
+  }
+}
+
+/* 4. 超宽屏：2560px以上（如4K屏） */
+@media (min-width: 2560px) {
+  html {
+    font-size: 24px; /* 1rem = 24px，按1.5倍放大，避免元素过小 */
+  }
+}

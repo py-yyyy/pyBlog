@@ -1,0 +1,165 @@
+*{
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+#publishHead{
+    z-index: 999;
+    padding: 0 2rem;
+    background: white;
+    height: 3.5rem;
+    box-shadow: 0 0.5rem 1rem -0.5rem rgba(0, 0, 0, 0.05);
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+#publishHead>div{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+#publishHead img{
+    width: 2rem;
+    height: 2rem;
+}
+#publishHead button{
+    border: none;
+    background: transparent;
+    font-size: 0.9rem;
+    color: rgb(78, 74, 75);
+}
+#publishBody{
+    margin: 0 auto;
+    margin-top: 5.5rem;
+    width: 50%;
+    color: rgb(78, 74, 75);
+}
+#publishContent{
+    margin-top: 2rem;
+    background: white;
+    padding: 2rem;
+    box-shadow: 0 0.5rem 1rem -0.5rem rgba(0, 0, 0, 0.05);
+    border-radius: 1rem;
+}
+#publishContent>ul{
+    list-style: none;
+}
+#publishContent>ul>li{
+    margin-bottom: 2rem;
+}
+#publishContent>ul>li>p{
+    font-weight: 350;
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+.publishInput{
+    width: 100%;
+    height: 2.5rem;
+    border: 0.05rem solid rgb(181, 174, 175);
+    border-radius: 0.5rem;
+    text-indent: 1em;
+    transition: all 0.3s;
+    color: rgb(78, 74, 75);
+}
+#publishContent textarea{
+    height: 8rem;
+    padding-top: 1rem;
+    color: rgb(78, 74, 75);
+}
+.publishInput:focus{
+    border: 0.05rem solid #4495F6;
+    transform: translateY(-0.05rem);
+}
+input:focus,textarea:focus{
+    outline: none;
+}
+#publishFooter{
+    width: 100%;
+    background: white;
+    box-shadow: 0 0.5rem 1rem -0.5rem rgba(0, 0, 0, 0.05);
+    margin: 2rem 0 0 0;
+    border-top: 0.1rem solid rgba(0, 0, 0, 0.05);
+    color: rgb(78, 74, 75);
+    margin-top: 8rem;
+}
+#publishFooter>p{
+    padding: 2rem 0 3rem;
+    text-align: center;
+    font-weight: 350;
+    font-size: 0.9rem;
+}
+#publishAddImgDiv{
+    position: relative;
+}
+#publishCameraHidden{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+.publishAddImg{
+    height: 7rem;
+    width: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.05rem solid rgba(0, 0, 0, 0.1);
+}
+.publishAddImg>img{
+    height: 1.5rem!important;
+    width: 1.5rem!important;
+}
+.publishAddImgUl{
+    list-style: none;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.publishAddImgUl>li{
+    margin-right: 0.5rem;
+    position: relative;
+}
+.publishShowImg{
+    height: 7rem;
+    /* width: 6rem; */
+}
+.publishCancelImg{
+    display: block!important;
+    position: absolute;
+    top: -0.5rem;
+    right: -0.5rem;
+    width: 1.5rem!important;
+    height: 1.5rem!important;
+}
+.publishCancelImg2{
+    display: none;
+}
+#publishBtn{
+    display: flex;
+    justify-content: space-between;
+}
+#publishBtn>button{
+    width: 48%;
+    height: 2.5rem;
+    border-radius: 0.5rem;
+    transition: all 0.3s;
+}
+#publishBtn>button:hover{
+    transform: translateY(-0.05rem);
+}
+#publishCancelBtn{
+    background: white;
+    color: rgb(78, 74, 75);
+    border: 0.05rem solid rgb(181, 174, 175);
+}
+#publishSubmitBtn{
+    background: #4495F6;
+    color: white;
+    border: none;
+}

@@ -1,0 +1,268 @@
+*{
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+#changeDataBody input,#changeDataBody textarea{
+    transition: all 0.3s;
+}
+#changeDataBody input:focus,#changeDataBody textarea:focus{
+    transform: translate(-0.1rem)!important;
+}
+#changeDataBody{
+    width: 50%;
+    margin: auto;
+    margin-top: 5.5rem;
+}
+#changeDataHead{
+    z-index: 999;
+    padding: 0 2rem;
+    background: white;
+    height: 3.5rem;
+    box-shadow: 0 0.5rem 1rem -0.5rem rgba(0, 0, 0, 0.05);
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+#changeDataHead>div{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+#changeDataHead img{
+    width: 2rem;
+    height: 2rem;
+}
+#changeDataHead button{
+    border: none;
+    background: transparent;
+    font-size: 0.9rem;
+    color: rgb(78, 74, 75);
+}
+#changeDataBody>h2{
+    color: rgb(78, 74, 75);
+}
+#changeDataBody>div{
+    background: white;
+    border-radius: 1rem;
+    box-shadow: 0 0.5rem 1rem -0.5rem rgba(0, 0, 0, 0.05);
+    padding: 2rem;
+    margin-top: 2rem;
+}
+#changeDataFooter{
+    width: 100%;
+    background: white;
+    box-shadow: 0 0.5rem 1rem -0.5rem rgba(0, 0, 0, 0.05);
+    margin: 2rem 0 0 0;
+    border-top: 0.1rem solid rgba(0, 0, 0, 0.05);
+    color: rgb(78, 74, 75);
+    margin-top: 8rem;
+}
+#changeDataFooter>p{
+    padding: 2rem 0 3rem;
+    text-align: center;
+    font-weight: 350;
+    font-size: 0.9rem;
+}
+#changeDataMsgHeadImg{
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+}
+#changeDataMsgHeadCameraImg{
+    width: 1rem;
+    height: 1rem;
+}
+#changeDataMsgHead{
+    width: 6.2rem;
+    height: 6.2rem;
+    position: relative;
+}
+#changeDataMsgHeadCamera{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    height: 2rem;
+    width: 2rem;
+    background: #4495F6;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+#changeDataCameraHidden{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+#changeDataMsg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#changeDataHeadText{
+    font-size: 0.9rem;
+    font-weight: 350;
+    margin-top: 0.5rem;
+    text-align: center;
+    color: rgb(78, 74, 75);
+}
+.changeDataContent{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+.changeDataContent p{
+    color: rgb(78, 74, 75);
+    font-weight: 350;
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+.changeDataContent input,.changeDataContent textarea{
+    border: 0.05rem solid rgb(181, 174, 175);
+    height: 2.5rem;
+    border-radius: 0.5rem;
+    text-indent: 1em;
+    color: rgb(78, 74, 75);
+    /* background: rgb(255,251,252); */
+}
+.changeDataContent input:focus,.changeDataContent textarea:focus{
+    outline: none;
+    border: 0.05rem solid #4495F6;
+}
+.changeDataContent textarea{
+    height: 7rem;
+    font-weight: 700;
+    padding-top: 1rem;
+}
+#changeDataBtn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#changeDataLink{
+    list-style: none;
+}
+#changeDataLink>li>img{
+    width: 1rem;
+    height: 1rem;
+    margin: 0 1rem;
+}
+#changeDataLink>li{
+    margin-bottom: 1rem;
+}
+#changeDataLink>li>input{
+    width: calc(100% - 3rem);
+}
+#changeDataBtn>button{
+    width: 49%;
+    height: 2.5rem;
+    border-radius: 0.5rem;
+    /* box-shadow: 0 0.5rem 1rem -0.5rem rgba(0, 0, 0, 0.05); */
+    transition: all 0.3s;
+}
+#changeDataBtn>button:hover{
+    transform: translateY(-0.05rem);
+}
+#changeDataCancel{
+    border: 0.05rem solid rgb(181, 174, 175);
+    background: white;
+    color: rgb(78, 74, 75);
+}
+#changeDataSave{
+    border: none;
+    background: #4495F6;
+    color: white;
+}
+#changeDataSafe{
+    padding: 2rem;
+    transition: all 0.3s;
+}
+#changeDataSafe>h3{
+    margin-bottom: 1rem;
+    color: rgb(78, 74, 75);
+}
+#changeDataSafe>div>div{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+#changeDataSafe>div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#changeDataSafe>div>div>p{
+    font-weight: 350;
+    color: rgb(78, 74, 75);
+}
+#changeDataSafe>div>div>img{
+    width: 1rem;
+    height: 1rem;
+    margin-right: 1rem;
+}
+.changeDataChangePassword{
+    display: flex;
+    justify-content: space-between!important;
+    align-items: center;
+    margin-top: 1rem;
+    font-weight: 350;
+    color: rgb(78, 74, 75);
+    width: 100%;
+}
+.changeDataChangePassword>input{
+    width: 70%;
+    height: 2.5rem;
+    border: 0.05rem solid rgb(181, 174, 175);
+    border-radius: 0.5rem;
+    text-indent: 1em;
+    /* background: rgb(255,251,252); */
+}
+.changeDataChangePassword>input:focus{
+    outline: none;
+    border: 0.05rem solid #4495F6;
+}
+#changeDataChangePasswordShow{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+#changeDataShowBtn{
+    margin-top: 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between!important;
+    align-items: center;
+}
+#changeDataShowSave:hover,#changeDataShowCancel:hover{
+    transform: translateY(-0.05rem);
+}
+#changeDataShowBtn>button{
+    width: 49%;
+    height: 2.5rem;
+    border-radius: 0.5rem;
+    transition: all 0.3s;
+}
+#changeDataShowCancel{
+    border: 0.05rem solid rgb(181, 174, 175);
+    background: white;
+    color: rgb(78, 74, 75);
+}
+#changeDataShowSave{
+    border: none;
+    background: #4495F6;
+    color: white;
+}
+.changeDataPasswordDivShow{
+    display: none!important;
+}

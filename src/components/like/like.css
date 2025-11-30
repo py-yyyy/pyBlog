@@ -1,0 +1,38 @@
+#likeFather{
+    padding: 2rem;
+    background: white;
+    color: rgb(78, 74, 75);
+    border-radius: 1rem;
+}
+#likeTitle img{
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: 0.5rem;
+}
+#likeTitle{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+#likeList{
+    list-style: none;
+}
+#likeList>li{
+    margin-bottom: 0.5rem;
+    color: rgb(78, 74, 75);
+    margin-top: 1rem;
+}
+#likeList>li:hover{
+    color: #4495F6;
+}
+#nullImg{
+    width: 50%;
+}
+.articleNullDiv{
+    display: none!important;
+}
+#NullImgDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

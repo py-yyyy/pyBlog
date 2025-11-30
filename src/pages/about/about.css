@@ -1,0 +1,203 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+#aboutFather{
+    margin: auto;
+    width: 72%;
+}
+#aboutHead p,#aboutHead h1{
+    color: rgb(78, 74, 75);
+    text-align: center;
+}
+#aboutHead h1{
+    font-weight: 800;
+}
+#aboutHead{
+    margin-bottom: 2rem;
+}
+#aboutIntroduce{
+    background: white;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    box-shadow: 0 0.5rem 1rem -0.5rem rgba(0, 0, 0, 0.05);
+    color: rgb(78, 74, 75);
+}
+#aboutIntroduceTitle{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+#aboutIntroduceTitle>div{
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 1.25rem;
+    background: #f0f6ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0.5rem;
+}
+#aboutIntroduceTitle img{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+#aboutIntroduceContent{
+    margin: 1rem 0;
+}
+#aboutIntroduceContent>p{
+    margin-top: 0.5rem;
+}
+#aboutIntroduceEnd{
+    border-radius: 0.6rem;
+    border-left: 0.3rem solid #4495F6;
+    background: rgb(255,251,252);
+    padding: 1.5rem;
+}
+#aboutIntroduceEndP2{
+    font-weight: 350;
+    font-size: 0.9rem;
+    text-align: right;
+    margin-top: 0.5rem;
+}
+#aboutTable{
+    background: white;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    box-shadow: 0 0.5rem 1rem -0.5rem rgba(0, 0, 0, 0.05);
+    color: rgb(78, 74, 75);
+    margin-top: 2rem;
+}
+#aboutTableContent{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+#aboutTableRight{
+    list-style: none;
+    color: rgb(78, 74, 75);
+    margin-left: 1rem;
+    height: 20rem;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+#aboutTableRight li{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+#aboutTableRight img{
+    width: 2rem;
+    height: 2rem;
+}
+.aboutTableImg{
+    width: 3rem;
+    height: 3rem;
+    background: #f0f6ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1.5rem;
+    margin-right: 1rem;
+}
+.aboutTableText p{
+    font-size: 0.8rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    color: rgb(78, 74, 75);
+}
+#aboutContact{
+    margin-top: 2rem;
+    background: white;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    box-shadow: 0 0.5rem 1rem -0.5rem rgba(0, 0, 0, 0.05);
+    color: rgb(78, 74, 75);
+}
+#aboutContact>p{
+    margin: 1rem 0;
+}
+#aboutContactContent{
+    display: flex;
+}
+#aboutContactContentLeft,#aboutContactContentRight{
+    width: 50%;
+    padding: 0 3rem;
+}
+.aboutContactWay{
+   display: flex;
+   justify-content: left; 
+   margin-bottom: 1.5rem;
+}
+.aboutContactWayImg{
+    background: #f0f6ff;
+    height: 3rem;
+    width: 3rem;
+    margin-right: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1.5rem;
+}
+.aboutContactWayImg img{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.aboutContactWayText{
+    color: #4495F6;
+    font-size: 0.9rem;
+}
+.aboutContactWayText2{
+    font-size: 0.9rem;
+}
+.aboutContactWayText:hover{
+    text-decoration: underline;
+}
+#aboutContactContentRight>div{
+    margin-bottom: 1rem;
+}
+#aboutContactContentRight>div>p{
+    font-weight: 350;
+    font-size: 0.8rem;
+}
+#aboutContactContentRight input,#aboutContactContentRight textarea{
+    background: rgb(255,251,252);
+    /* border: 0.1rem solid rgba(0, 0, 0, 0.05); */
+    border: 0.05rem solid rgb(181, 174, 175);
+    border-radius: 0.5rem;
+    height: 2.5rem;
+    width: 100%;
+    text-indent: 1em;
+    margin-top: 0.2rem;
+    transition: all 0.3s;
+}
+#aboutContactContentRight input:focus,#aboutContactContentRight textarea:focus{
+    /* border: 0.1rem solid #4495F6; */
+    transform: translateY(-0.05rem);
+    outline: none;
+}
+#aboutContactContentRight textarea{
+    height: 10rem;
+    padding-top: 1rem;
+    font-weight: 700;
+}
+#aboutContactContentRight button{
+    width: 100%;
+    height: 3rem;
+    border-radius: 0.5rem;
+    color: white;
+    background: #4495F6;
+    border: none;
+    font-size: 1.1rem;
+    box-shadow: 0 0.5rem 1rem -0.5rem rgba(0, 0, 0, 0.05);
+    transition: all 0.3s;
+}
+#aboutContactContentRight button:hover{
+    /* background: #c6b1bb; */
+    transform: translateY(-0.05rem);
+}

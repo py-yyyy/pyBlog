@@ -1,0 +1,153 @@
+*{
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+#myBody{
+    width: 72%;
+    margin: auto;
+    margin-top: 5.5rem;
+}
+#myHead{
+    padding: 0 2rem;
+    background: white;
+    height: 3.5rem;
+    box-shadow: 0 0.5rem 1rem -0.5rem rgba(0, 0, 0, 0.05);
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+#myHead>div{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+#myHead img{
+    width: 2rem;
+    height: 2rem;
+}
+#myHead button{
+    border: none;
+    background: transparent;
+    font-size: 0.9rem;
+    color: rgb(78, 74, 75);
+}
+#myMsg{
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    box-shadow: 0 0.5rem 1rem -0.5rem rgba(0, 0, 0, 0.05);
+    border-radius: 1rem;
+}
+#myMsgLeft>img{
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    border: 0.3rem solid rgb(255,251,252);
+    margin-right: 1rem;
+}
+#myMsgLeft{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+#myMsgUl{
+    margin-top: 1rem;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+#myMsgUl>li{
+    text-align: center;
+    margin-right: 1rem;
+}
+.myMsgNum{
+    text-align: center;
+    font-weight: 700;
+    color: #4495F6;
+}
+.myMsgText{
+    font-size: 0.9rem;
+}
+#myMsgLeftText{
+    color: rgb(78, 74, 75);
+}
+#myUsername{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+#myMsgRight{
+    width: 6rem;
+    height: 2.5rem;
+    font-weight: 700;
+    border-radius: 0.5rem;
+    color: white;
+    background: #4495F6;
+    border: none;
+    box-shadow: 0 0.5rem 1rem -0.5rem rgba(0, 0, 0, 0.05);
+    transition: all 0.3s;
+}
+#myMsgRight:hover{
+    /* background: #c6b1bb; */
+    transform: translateY(-0.05rem);
+}
+#myNav{
+    background: white;
+    box-shadow: 0 0.5rem 1rem -0.5rem rgba(0, 0, 0, 0.05);
+    border-radius: 1rem;
+    margin-top: 2rem;
+    padding: 1rem 2rem;
+    list-style: none;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    color: rgb(78, 74, 75);
+}
+#myNav img{
+    width: 1rem;
+    height: 1rem;
+    margin: 0 0.5rem;
+}
+#myNav>li{
+    margin-right: 1.5rem;
+    transition: all 0.3s;
+}
+#myNav>li:hover{
+    transform: translateY(-0.05rem);
+}
+.myNavActive{
+    color: #4495F6;
+    transition: none!important;
+}
+#myOutlet{
+    margin-top: 2rem;
+}
+
+#myFooter{
+    width: 100%;
+    background: white;
+    box-shadow: 0 0.5rem 1rem -0.5rem rgba(0, 0, 0, 0.05);
+    margin: 2rem 0 0 0;
+    border-top: 0.1rem solid rgba(0, 0, 0, 0.05);
+    color: rgb(78, 74, 75);
+    margin-top: 8rem;
+}
+#myFooter>p{
+    padding: 2rem 0 3rem;
+    text-align: center;
+    font-weight: 350;
+    font-size: 0.9rem;
+}
+#myIntroduction{
+    /* font-weight: 350; */
+    font-size: 0.9rem;
+    margin-top: 0.2rem;
+}
+.displayNone{
+    display: none;
+}

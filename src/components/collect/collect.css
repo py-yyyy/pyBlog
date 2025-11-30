@@ -1,0 +1,38 @@
+#collectFather{
+    padding: 2rem;
+    background: white;
+    color: rgb(78, 74, 75);
+    border-radius: 1rem;
+}
+#collectTitle img{
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: 0.5rem;
+}
+#collectTitle{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+#collectList{
+    list-style: none;
+}
+#collectList>li{
+    margin-bottom: 0.5rem;
+    color: rgb(78, 74, 75);
+    margin-top: 1rem;
+}
+#collectList>li:hover{
+    color: #4495F6;
+}
+#nullImg{
+    width: 50%;
+}
+.articleNullDiv{
+    display: none!important;
+}
+#NullImgDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
